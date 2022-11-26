@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(Fonts/Celtic\ \(Plain\):001.001.ttf);
+}
+@font-face {
+    font-family: 'MyFont2';
+    src: url(Fonts/FifteenTwenty-master/FifteenTwenty-Bold.otf);
+}
+
+body{
+    background-color: rgba(241, 242, 232, 0.452);
+}
+
+.myBorder{
+    border: 5px solid rgb(54, 50, 10);
+    border-radius: 2px;
+}
+
+.test{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'MyFont2';
+}
+
+
