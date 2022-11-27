@@ -18,8 +18,11 @@ body{
 
 .test{
     text-align: center;
-    font-size: 80px;
-    font-family: 'MyFont2';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+a {
+    font-size: 200%;
+}
 
