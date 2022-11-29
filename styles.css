@@ -7,6 +7,7 @@
     src: url(Fonts/FifteenTwenty-master/FifteenTwenty-Bold.otf);
 }
 
+
 body{
     background-color: rgba(241, 242, 232, 0.452);
 }
@@ -25,7 +26,13 @@ body{
 
 .right-col{
     padding-bottom: 200px;
-    background-color: rgb(72, 143, 76);
+    background-image: url("trenn2.png");
+    background-size:50px;
+    background-repeat: no-repeat;
+}
+.right-col-sm{
+    background-image: url("trenn2.png");
+    background-size: 0px;
 }
 
 a {
@@ -44,3 +51,7 @@ a {
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
 
+
+p{
+    padding-left: 40px;
+}
