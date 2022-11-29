@@ -24,7 +24,9 @@ body{
     background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
     background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
 }
-
+h2{
+    text-align: center;
+}
 .mainBar{
     background-color: rgba(140, 140, 120, 0.5);
 }
