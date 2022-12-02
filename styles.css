@@ -27,6 +27,10 @@ body{
 h2{
     text-align: center;
 }
+h3{
+    text-align: center;
+}
+
 .mainBar{
     background-color: rgba(140, 140, 120, 0.5);
 }
