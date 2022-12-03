@@ -9,6 +9,7 @@
 
 
 body{
+    z-index: -4;
     background-color: rgba(167, 170, 139, 0.452);
 }
 
@@ -32,9 +33,38 @@ h3{
 }
 
 .mainBar{
+    z-index: -1;
     background-color: rgba(140, 140, 120, 0.5);
 }
 
 .sideBar{
     background-color: rgba(100, 100, 90, 0.5);
+}
+
+.video-header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    min-height: 10vh;
+}
+
+.video-bg{
+    z-index: -1;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h4{
+    font-size: 35px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(112, 112, 112, 0.069);
+    color: aliceblue;
 }
