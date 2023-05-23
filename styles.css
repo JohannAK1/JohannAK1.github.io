@@ -11,6 +11,7 @@
 body{
     z-index: -4;
     background-color: rgba(167, 170, 139, 0.452);
+    /*background-image: linear-gradient(45deg, #ffffff 25%, #f3eedf 25%, #f3eedf 50%, #ffffff 50%, #ffffff 75%, #f3eedf 75%, #f3eedf);*/
 }
 
 .myHr{
